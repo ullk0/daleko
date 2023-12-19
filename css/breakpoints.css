@@ -1,0 +1,23 @@
+/* @media all and (max-width: 1920px) {
+    p {
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (max-width: 430px) {
+    p {
+        font-size: 1rem;
+    }
+} */

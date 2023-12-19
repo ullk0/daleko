@@ -1,0 +1,228 @@
+body {
+    font-family: "HelveticaNeue";
+}
+
+/* ОБЩЕЕ */
+
+h1 {
+    color: #000;
+
+    text-align: center;
+    font-family: "HelveticaNeue";
+    font-size: 34rem;
+    font-size: 28vw;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 100%;
+
+    margin: 0;
+}
+
+p {
+    color: #000;
+
+    font-family: "HelveticaNeue";
+    font-size: 2rem;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 100%;
+
+    margin: 0;
+}
+
+/* ПЕРВЫЙ ЭКРАН */
+
+.first {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24vw;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.fnav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fnav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fdaleko {
+    box-sizing: border-box;
+    width: inherit;
+
+    padding: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+/* ВТОРОЙ ЭКРАН */
+
+.second {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.sauthors {
+    position: absolute;
+    box-sizing: border-box;
+    width: inherit;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: inherit;
+}
+
+.sauthors div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.simages {
+    width: 54vw;
+    min-height: 44vw;
+
+    animation: ss 4s steps(1) infinite;
+}
+
+/* ТРЕТИЙ ЭКРАН */
+
+.third {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tdate {
+    position: absolute;
+    box-sizing: border-box;
+    width: inherit;
+
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.timages {
+    width: 100vw;
+}
+
+.flr1 {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.flr2 {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+
+.fl {
+    width: 40vw;
+    height: auto;
+    object-fit: fill;
+    flex-shrink: 0;
+}
+
+.fl img {
+    z-index: 100;
+    opacity: 0;
+    width: 100%;
+}
+
+.fl img:hover {
+    opacity: 1;
+}
+
+/* ЧЕТВЕРТЫЙ ЭКРАН */
+
+.fourth {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 2%;
+}
+
+.ftext {
+    position: relative;
+    box-sizing: border-box;
+    width: inherit;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48vw;
+
+    padding: inherit;
+}
+
+.ftext div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fimages {
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+}
+
+.fimages img {
+    width: 100%;
+
+    display: inline-block;
+
+    padding-left: 100%;
+
+    animation: marquee 30s linear infinite;
+    animation-delay: -30s;
+}
+
+.fimages2 img {
+    animation-delay: -15s;
+}

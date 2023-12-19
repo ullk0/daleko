@@ -1,0 +1,10 @@
+@import url(main.css);
+@import url(animations.css);
+@import url(breakpoints.css);
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(../fonts/HelveticaNeue-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
