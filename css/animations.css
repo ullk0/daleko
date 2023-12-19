@@ -2,32 +2,32 @@
 
 @keyframes ss {
     0% {
-        background: url(../img/ss1.png);
+        background: url(../img/ss1.jpeg);
         background-size: cover;
     }
 
     20% {
-        background: url(../img/ss2.png);
+        background: url(../img/ss2.jpeg);
         background-size: cover;
     }
 
     40% {
-        background: url(../img/ss3.png);
+        background: url(../img/ss3.jpeg);
         background-size: cover;
     }
 
     60% {
-        background: url(../img/ss4.png);
+        background: url(../img/ss4.jpeg);
         background-size: cover;
     }
 
     80% {
-        background: url(../img/ss5.png);
+        background: url(../img/ss5.jpeg);
         background-size: cover;
     }
 
     100% {
-        background: url(../img/ss1.png);
+        background: url(../img/ss1.jpeg);
         background-size: cover;
     }
 }
