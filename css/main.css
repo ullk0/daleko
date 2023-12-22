@@ -40,7 +40,7 @@ p {
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    gap: 24vw;
+    gap: 18vw;
 
     padding: 2%;
     margin-bottom: 2%;
@@ -84,7 +84,7 @@ p {
     position: absolute;
     overflow: hidden;
     width: 100vw;
-    height: 45%;
+    height: 50%;
 
     display: flex;
     justify-content: flex-start;
@@ -101,6 +101,14 @@ p {
 
 .fo img:hover {
     opacity: 1;
+    width: 100%;
+    transition: steps(1);
+}
+
+.fo img:not(hover) {
+    opacity: 0;
+    transition: opacity linear .2s;
+    transition-delay: .2s;
 }
 
 .fo1 {
@@ -185,6 +193,7 @@ p {
     position: absolute;
     box-sizing: border-box;
     width: inherit;
+    z-index: 1;
 
     display: flex;
     justify-content: center;
@@ -213,7 +222,6 @@ p {
     overflow: hidden;
 }
 
-
 .fl {
     width: 40vw;
     height: auto;
@@ -222,12 +230,23 @@ p {
 }
 
 .fl img {
+    z-index: -1;
     opacity: 0;
     width: 100%;
 }
 
 .fl img:hover {
+    z-index: -1;
     opacity: 1;
+    width: 100%;
+    transition: steps(1);
+}
+
+.fl img:not(hover) {
+    z-index: -1;
+    opacity: 0;
+    transition: opacity linear .2s;
+    transition-delay: .2s;
 }
 
 /* ЧЕТВЕРТЫЙ ЭКРАН */
