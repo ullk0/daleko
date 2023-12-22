@@ -31,12 +31,15 @@ p {
 /* ПЕРВЫЙ ЭКРАН */
 
 .first {
+    position: relative;
     box-sizing: border-box;
     width: 100%;
     height: auto;
 
     display: flex;
     flex-direction: column;
+    justify-content: end;
+    align-items: center;
     gap: 24vw;
 
     padding: 2%;
@@ -44,15 +47,27 @@ p {
 }
 
 .fnav1 {
+    box-sizing: border-box;
+    width: 100vw;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .fnav2 {
+    box-sizing: border-box;
+    width: 100vw;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .fdaleko {
@@ -62,6 +77,54 @@ p {
     padding: inherit;
     display: flex;
     justify-content: center;
+}
+
+.foverlay {
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 45%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fo {
+    height: auto;
+}
+
+.fo img {
+    opacity: 0;
+    width: 100%;
+}
+
+.fo img:hover {
+    opacity: 1;
+}
+
+.fo1 {
+    width: 20%;
+}
+
+.fo2 {
+    width: 15%;
+}
+
+.fo3 {
+    width: 15%;
+}
+
+.fo4 {
+    width: 16%;
+}
+
+.fo5 {
+    width: 15%;
+}
+
+.fo6 {
+    width: 19%;
 }
 
 /* ВТОРОЙ ЭКРАН */
@@ -159,7 +222,6 @@ p {
 }
 
 .fl img {
-    z-index: 100;
     opacity: 0;
     width: 100%;
 }
